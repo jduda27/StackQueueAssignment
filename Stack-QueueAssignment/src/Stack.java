@@ -14,9 +14,9 @@ class Stack {
 		q2 = new QueueReferenceBased();
 	}
 
-	/**
-	 * Push element x onto stack. Precondition: Object x that will be pushed to the
-	 * front of the queue Postcondition: The updated stack with x at the top.
+	/**Push element x onto stack.
+	 * Precondition: Object x that will be pushed to the front of the queue.
+	 * Postcondition: The updated stack with x at the top.
 	 */
 	public void push(Object x) {
 		// add x to a temp queue
